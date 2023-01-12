@@ -1,1 +1,175 @@
+/* основні кольори тексту ,фону,виділення */
+:root {
+    --primary-color-text: #434455;
+    --secondary-color-text: #2E2F42;
+    --normal-color: #4D5AE5;
+    --active-color:#404BBF;
+}
+/* основні властивості тексту */
+body {
+    font-family: 'Roboto',sans-serif;
+   color: var(--primary-color-text);
+}
+/*------ header--------- */
+.header {
+    background: #FFFFFF;
+/* CORNFLOWER */
 
+border-bottom: 1px solid #E7E9FC;
+}
+/* navigation */
+/* LOGO */
+.logo-link-light-theme{
+    text-decoration: none;
+}
+.accent {
+    font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33em;
+/* identical to box height, or 133% */
+letter-spacing: 0.03em;
+    color: var(--normal-color);
+}
+.style {
+    font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33em;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+    color: var(--secondary-color-text);
+}
+.list-link{
+    list-style: none;
+} 
+.list-link .list-link-item{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5em;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+color: var(--secondary-color-text)
+}
+.list-link-item:hover,
+.list-link-item:focus{
+    color: var( --active-color);
+}
+.list-link-item{   
+text-decoration: none;
+}
+
+.list-contacts{
+    list-style: none;
+}
+.list-contacts :hover{
+    color: var( --active-color);
+}
+
+.list-contacts :focus{
+    color: var( --active-color);
+}
+.list-contacts-mail {
+    text-decoration: none;   
+font-size: 16px;
+line-height: 1.5em;
+/* identical to box height, or 150% */
+ letter-spacing: 0.02em;
+color: var(--primary-color-text);
+}
+.list-contacts-phone-number {
+    text-decoration: none;
+font-size: 16px;
+line-height: 1.5em;
+/* identical to box height, or 150% */
+ letter-spacing: 0.02em;
+color: var(--primary-color-text);
+}
+
+/* -------section hero-------- */
+.hero {
+    background-color: var(--secondary-color-text);
+}
+.main-title {
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07em;
+/* or 107% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+.modal-button{
+    background: var( --normal-color);
+}
+
+.modal-button:hover,
+.modal-button:focus{
+    background-color: var( --active-color);
+
+}
+.title-btn{
+    width: 105px;
+height: 24px;
+
+/* Button Text */
+
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5em;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+}
+.skills {
+}
+.menu-skills {
+}
+.menu-skills-item {
+}
+.menu-skills-suptitle {
+}
+.skill-description {
+}
+.menu-skils-item {
+}
+.photos-work {
+}
+.photos-work-title {
+}
+.team-card {
+}
+.team-card-title {
+}
+.name {
+}
+.profession-name {
+}
+.footer {
+    background-color:  var(--secondary-color-text);
+}
+.logo-link-dark-theme .style{
+    color: #F4F4FD;
+}
+.footer-text {
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5em;
+/* or 150% */
+
+letter-spacing: 0.02em;
+
+/* CORNFLOWER */
+
+color: #E7E9FC;
+}
