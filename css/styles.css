@@ -91,6 +91,7 @@ color: var(--primary-color-text);
 .hero {
     background-color: var(--secondary-color-text);
 }
+/* ----------Заголовок------- */
 .main-title {
     font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -111,7 +112,9 @@ color: #FFFFFF;
 .modal-button:hover,
 .modal-button:focus{
     background-color: var( --active-color);
-
+}
+.modal-button{
+    cursor: pointer;
 }
 .title-btn{
     width: 105px;
@@ -130,21 +133,61 @@ letter-spacing: 0.04em;
 
 color: #FFFFFF;
 }
+h2, h3{
+    color: var(--secondary-color-text);
+}
+/* --------section----- */
 .skills {
+    background: #E5E5E5;
+    font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1em;
+/* identical to box height, or 111% */
+
+text-align: center;
+letter-spacing: 0.02em;
 }
 .menu-skills {
+    list-style: none;
 }
 .menu-skills-item {
+   
 }
 .menu-skills-suptitle {
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2em;
+/* identical to box height, or 120% */
+
+letter-spacing: 0.02em;
 }
 .skill-description {
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.2em;
+/* or 150% */
+
+letter-spacing: 0.02em;
 }
 .menu-skils-item {
+
 }
+/* --------section------ */
 .photos-work {
+    background: #E5E5E5;
 }
 .photos-work-title {
+    font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1em;
+/* identical to box height, or 111% */
+
+text-align: center;
+letter-spacing: 0.02em;
 }
 .team-card {
 }
