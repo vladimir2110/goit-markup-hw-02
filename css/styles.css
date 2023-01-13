@@ -93,7 +93,6 @@ color: var(--primary-color-text);
 }
 /* ----------Заголовок------- */
 .main-title {
-    font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 56px;
@@ -122,7 +121,6 @@ height: 24px;
 
 /* Button Text */
 
-font-family: 'Roboto',sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -151,8 +149,8 @@ letter-spacing: 0.02em;
 .menu-skills {
     list-style: none;
 }
-.menu-skills-item {
-   
+.menu-skills-item{
+
 }
 .menu-skills-suptitle {
     font-style: normal;
@@ -189,14 +187,127 @@ line-height: 1.1em;
 text-align: center;
 letter-spacing: 0.02em;
 }
+.list-photo-work{
+    list-style: none;
+}
+/* -------section--------- */
 .team-card {
+    background: #F4F4FD;
 }
 .team-card-title {
+    font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1em;
+/* identical to box height, or 111% */
+
+text-align: center;
+letter-spacing: 0.02em;
+}
+.list-team-card{
+    list-style: none;
 }
 .name {
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height:1.2em;
+/* identical to box height, or 120% */
+
+text-align: center;
+letter-spacing: 0.02em;
 }
 .profession-name {
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: 0.02em;
 }
+
+/* css для portfolio.html */
+
+.gellery{
+    background: #E5E5E5;
+}
+.gellery-title{
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07em;
+/* or 107% */
+
+text-align: center;
+letter-spacing: 0.02em;
+}
+.list-button{
+    list-style: none;
+}
+.button{
+
+/* CLOUD */
+
+background: #F4F4FD;
+/* CORNFLOWER */
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5em;
+/* identical to box height, or 150% */
+
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+
+/* IRIS */
+color:var(--normal-color);
+}
+.button:hover,
+.button:focus{
+    /* OCEAN */
+    
+    background:var(--active-color);
+     font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5em;
+    /* identical to box height, or 150% */
+    
+    text-align: center;
+    letter-spacing: 0.04em;
+    
+    color: #FFFFFF;
+}
+.list-projects{
+    list-style: none; 
+}
+.list-projects-title{
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2em;
+/* identical to box height, or 120% */
+letter-spacing: 0.02em;
+}
+.text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2em;
+    /* identical to box height, or 120% */
+    
+    letter-spacing: 0.02em;
+    
+    /* NAVY BLUE */
+    
+    color: var(--primary-color-text)
+}
+
+
 .footer {
     background-color:  var(--secondary-color-text);
 }
@@ -204,7 +315,6 @@ letter-spacing: 0.02em;
     color: #F4F4FD;
 }
 .footer-text {
-    font-family: 'Roboto';
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5em;
