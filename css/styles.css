@@ -14,15 +14,14 @@ body {
 /*------ header--------- */
 .header {
 /* CORNFLOWER */
-
 border-bottom: 1px solid #E7E9FC;
 }
 /* navigation */
 /* LOGO */
-.logo-link-light-theme{
+ .logo-link-light-theme{
     text-decoration: none;
 }
-.accent {
+.logo-link-light-theme {
     font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
@@ -31,14 +30,7 @@ line-height: 1.33;
 letter-spacing: 0.03em;
     color: var(--normal-color);
 }
-.style {
-    font-family: 'Raleway', sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.33;
-/* identical to box height, or 133% */
-
-letter-spacing: 0.03em;
+ .style{
     color: var(--secondary-color-text);
 }
 .list-link{
@@ -93,7 +85,6 @@ color: var(--primary-color-text);
 }
 /* ----------Заголовок------- */
 .main-title {
-font-style: normal;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07em;
@@ -105,7 +96,16 @@ letter-spacing: 0.02em;
 color: #FFFFFF;
 }
 .modal-button{
+    font-family: inherit;
     background: var( --normal-color);
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
 }
 
 .modal-button:hover,
@@ -115,44 +115,29 @@ color: #FFFFFF;
 .modal-button{
     cursor: pointer;
 }
-.title-btn{
-    width: 105px;
-height: 24px;
-
-/* Button Text */
-
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-/* identical to box height, or 150% */
-
-letter-spacing: 0.04em;
-
-color: #FFFFFF;
-}
 h2, h3{
     color: var(--secondary-color-text);
 }
 /* --------section----- */
-.skills {
-    font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.1;
-/* identical to box height, or 111% */
 
-text-align: center;
-letter-spacing: 0.02em;
-}
+.visually-hidden {
+        position: absolute;
+          white-space: nowrap;
+          width: 1px;
+          height: 1px;
+          overflow: hidden;
+          border: 0;
+          padding: 0;
+          clip: rect(0 0 0 0);
+          clip-path: inset(50%);
+          margin: -1px;
+      } 
+
 .menu-skills {
     list-style: none;
 }
-.menu-skills-item{
 
-}
 .menu-skills-suptitle {
-    font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -161,22 +146,16 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 }
 .skill-description {
-    font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.2;
 /* or 150% */
 
 letter-spacing: 0.02em;
 }
-.menu-skils-item {
 
-}
 /* --------section------ */
-.photos-work {
-}
+
 .photos-work-title {
-    font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.1;
@@ -189,10 +168,8 @@ letter-spacing: 0.02em;
     list-style: none;
 }
 /* -------section--------- */
-.team-card {
-}
+
 .team-card-title {
-    font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.1;
@@ -204,8 +181,10 @@ letter-spacing: 0.02em;
 .list-team-card{
     list-style: none;
 }
+.personal-hhoto{
+    background-color: #FFFFFF; 
+}
 .name {
-    font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height:1.2;
@@ -215,8 +194,6 @@ text-align: center;
 letter-spacing: 0.02em;
 }
 .profession-name {
-    font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 /* identical to box height, or 150% */
@@ -227,19 +204,7 @@ letter-spacing: 0.02em;
 
 /* css для portfolio.html */
 
-.gellery{
-    
-}
-.gellery-title{
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-/* or 107% */
 
-text-align: center;
-letter-spacing: 0.02em;
-}
 .list-button{
     list-style: none;
 }
@@ -250,7 +215,6 @@ letter-spacing: 0.02em;
 background: #F4F4FD;
 /* CORNFLOWER */
 font-family: 'Roboto',sans-serif;
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -271,7 +235,6 @@ color:var(--normal-color);
     /* OCEAN */
     
     background:var(--active-color);
-     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -282,11 +245,14 @@ color:var(--normal-color);
     
     color: #FFFFFF;
 }
+
 .list-projects{
     list-style: none; 
 }
+.project-card{
+    background: #FFFFFF;
+}
 .list-projects-title{
-    font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -294,7 +260,6 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 }
 .text{
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -310,6 +275,18 @@ letter-spacing: 0.02em;
 
 .footer {
     background-color:  var(--secondary-color-text);
+}
+.logo-link-dark-theme {
+    text-decoration: none;
+}
+ .logo-link-dark-theme{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    /* identical to box height, or 133% */
+    letter-spacing: 0.03em;
+        color: var(--normal-color); 
 }
 .logo-link-dark-theme .style{
     color: #F4F4FD;
