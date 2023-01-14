@@ -9,10 +9,10 @@
 body {
     font-family: 'Roboto',sans-serif;
    color: var(--primary-color-text);
+   background-color: #FFFFFF;
 }
 /*------ header--------- */
 .header {
-    background: #FFFFFF;
 /* CORNFLOWER */
 
 border-bottom: 1px solid #E7E9FC;
@@ -26,7 +26,7 @@ border-bottom: 1px solid #E7E9FC;
     font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.33em;
+line-height: 1.33;
 /* identical to box height, or 133% */
 letter-spacing: 0.03em;
     color: var(--normal-color);
@@ -35,7 +35,7 @@ letter-spacing: 0.03em;
     font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.33em;
+line-height: 1.33;
 /* identical to box height, or 133% */
 
 letter-spacing: 0.03em;
@@ -47,7 +47,7 @@ letter-spacing: 0.03em;
 .list-link .list-link-item{
     font-weight: 500;
 font-size: 16px;
-line-height: 1.5em;
+line-height: 1.5;
 /* identical to box height, or 150% */
 letter-spacing: 0.02em;
 color: var(--secondary-color-text)
@@ -73,7 +73,7 @@ text-decoration: none;
 .list-contacts-mail {
     text-decoration: none;   
 font-size: 16px;
-line-height: 1.5em;
+line-height: 1.5;
 /* identical to box height, or 150% */
  letter-spacing: 0.02em;
 color: var(--primary-color-text);
@@ -81,7 +81,7 @@ color: var(--primary-color-text);
 .list-contacts-phone-number {
     text-decoration: none;
 font-size: 16px;
-line-height: 1.5em;
+line-height: 1.5;
 /* identical to box height, or 150% */
  letter-spacing: 0.02em;
 color: var(--primary-color-text);
@@ -124,7 +124,7 @@ height: 24px;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 1.5em;
+line-height: 1.5;
 /* identical to box height, or 150% */
 
 letter-spacing: 0.04em;
@@ -136,11 +136,10 @@ h2, h3{
 }
 /* --------section----- */
 .skills {
-    background: #E5E5E5;
     font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 1.1em;
+line-height: 1.1;
 /* identical to box height, or 111% */
 
 text-align: center;
@@ -156,7 +155,7 @@ letter-spacing: 0.02em;
     font-style: normal;
 font-weight: 500;
 font-size: 20px;
-line-height: 1.2em;
+line-height: 1.2;
 /* identical to box height, or 120% */
 
 letter-spacing: 0.02em;
@@ -165,7 +164,7 @@ letter-spacing: 0.02em;
     font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 1.2em;
+line-height: 1.2;
 /* or 150% */
 
 letter-spacing: 0.02em;
@@ -175,13 +174,12 @@ letter-spacing: 0.02em;
 }
 /* --------section------ */
 .photos-work {
-    background: #E5E5E5;
 }
 .photos-work-title {
     font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 1.1em;
+line-height: 1.1;
 /* identical to box height, or 111% */
 
 text-align: center;
@@ -192,13 +190,12 @@ letter-spacing: 0.02em;
 }
 /* -------section--------- */
 .team-card {
-    background: #F4F4FD;
 }
 .team-card-title {
     font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 1.1em;
+line-height: 1.1;
 /* identical to box height, or 111% */
 
 text-align: center;
@@ -211,7 +208,7 @@ letter-spacing: 0.02em;
     font-style: normal;
 font-weight: 500;
 font-size: 20px;
-line-height:1.2em;
+line-height:1.2;
 /* identical to box height, or 120% */
 
 text-align: center;
@@ -231,13 +228,13 @@ letter-spacing: 0.02em;
 /* css для portfolio.html */
 
 .gellery{
-    background: #E5E5E5;
+    
 }
 .gellery-title{
 font-style: normal;
 font-weight: 700;
 font-size: 56px;
-line-height: 1.07em;
+line-height: 1.07;
 /* or 107% */
 
 text-align: center;
@@ -256,7 +253,7 @@ font-family: 'Roboto',sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 1.5em;
+line-height: 1.5;
 /* identical to box height, or 150% */
 
 align-items: center;
@@ -266,6 +263,9 @@ letter-spacing: 0.04em;
 /* IRIS */
 color:var(--normal-color);
 }
+.button{
+    cursor: pointer;
+}
 .button:hover,
 .button:focus{
     /* OCEAN */
@@ -274,7 +274,7 @@ color:var(--normal-color);
      font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.5;
     /* identical to box height, or 150% */
     
     text-align: center;
@@ -289,7 +289,7 @@ color:var(--normal-color);
     font-style: normal;
 font-weight: 500;
 font-size: 20px;
-line-height: 1.2em;
+line-height: 1.2;
 /* identical to box height, or 120% */
 letter-spacing: 0.02em;
 }
@@ -297,7 +297,7 @@ letter-spacing: 0.02em;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2em;
+    line-height: 1.2;
     /* identical to box height, or 120% */
     
     letter-spacing: 0.02em;
@@ -317,7 +317,7 @@ letter-spacing: 0.02em;
 .footer-text {
 font-weight: 400;
 font-size: 16px;
-line-height: 1.5em;
+line-height: 1.5;
 /* or 150% */
 
 letter-spacing: 0.02em;
