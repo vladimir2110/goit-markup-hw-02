@@ -29,6 +29,7 @@ line-height: 1.33;
 /* identical to box height, or 133% */
 letter-spacing: 0.03em;
     color: var(--normal-color);
+    text-transform: uppercase;
 }
  .style{
     color: var(--secondary-color-text);
@@ -168,7 +169,9 @@ letter-spacing: 0.02em;
     list-style: none;
 }
 /* -------section--------- */
-
+.team-card{
+    background: #F4F4FD;
+}
 .team-card-title {
 font-weight: 700;
 font-size: 36px;
@@ -180,10 +183,9 @@ letter-spacing: 0.02em;
 }
 .list-team-card{
     list-style: none;
-}
-.personal-hhoto{
-    background-color: #FFFFFF; 
-}
+    background: #FFFFFF;
+} 
+
 .name {
 font-weight: 500;
 font-size: 20px;
@@ -260,12 +262,12 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 }
 .text{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    /* identical to box height, or 120% */
-    
-    letter-spacing: 0.02em;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.02em;
     
     /* NAVY BLUE */
     
@@ -286,7 +288,8 @@ letter-spacing: 0.02em;
     line-height: 1.33;
     /* identical to box height, or 133% */
     letter-spacing: 0.03em;
-        color: var(--normal-color); 
+        color: var(--normal-color);
+        text-transform: uppercase;
 }
 .logo-link-dark-theme .style{
     color: #F4F4FD;
